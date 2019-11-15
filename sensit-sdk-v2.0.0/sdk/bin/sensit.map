@@ -173,7 +173,7 @@ Discarded input sections
                 0x0000000000000000       0x30 obj/serial.o
  .debug_ranges  0x0000000000000000       0x20 obj/serial.o
  .debug_line    0x0000000000000000      0x109 obj/serial.o
- .debug_str     0x0000000000000000      0x280 obj/serial.o
+ .debug_str     0x0000000000000000      0x270 obj/serial.o
  .comment       0x0000000000000000       0x77 obj/serial.o
  .debug_frame   0x0000000000000000       0x5c obj/serial.o
  .ARM.attributes
@@ -236,7 +236,7 @@ Discarded input sections
                 0x0000000000000000       0x68 obj/AT_parser.o
  .debug_ranges  0x0000000000000000       0xb8 obj/AT_parser.o
  .debug_line    0x0000000000000000      0x63b obj/AT_parser.o
- .debug_str     0x0000000000000000      0x362 obj/AT_parser.o
+ .debug_str     0x0000000000000000      0x352 obj/AT_parser.o
  .comment       0x0000000000000000       0x77 obj/AT_parser.o
  .debug_frame   0x0000000000000000      0x100 obj/AT_parser.o
  .ARM.attributes
@@ -279,7 +279,7 @@ Discarded input sections
                 0x0000000000000000       0x80 obj/AT_functions.o
  .debug_ranges  0x0000000000000000       0x70 obj/AT_functions.o
  .debug_line    0x0000000000000000      0x413 obj/AT_functions.o
- .debug_str     0x0000000000000000      0x879 obj/AT_functions.o
+ .debug_str     0x0000000000000000      0x869 obj/AT_functions.o
  .comment       0x0000000000000000       0x77 obj/AT_functions.o
  .debug_frame   0x0000000000000000      0x178 obj/AT_functions.o
  .ARM.attributes
@@ -296,7 +296,7 @@ Discarded input sections
                 0x0000000000000000       0x20 obj/discovery.o
  .debug_ranges  0x0000000000000000       0x10 obj/discovery.o
  .debug_line    0x0000000000000000      0x1de obj/discovery.o
- .debug_str     0x0000000000000000      0x391 obj/discovery.o
+ .debug_str     0x0000000000000000      0x381 obj/discovery.o
  .comment       0x0000000000000000       0x77 obj/discovery.o
  .debug_frame   0x0000000000000000       0x34 obj/discovery.o
  .ARM.attributes
@@ -1869,29 +1869,29 @@ OUTPUT(bin/sensit.elf elf32-littlearm)
  .debug_line    0x0000000000000d83      0x3a9 obj/fxos8700.o
  .debug_line    0x000000000000112c      0x1da obj/main.o
 
-.debug_str      0x0000000000000000      0xb7e
- .debug_str     0x0000000000000000      0x33a obj/error.o
-                                        0x35b (size before relaxing)
- .debug_str     0x000000000000033a       0x6e obj/button.o
-                                        0x2e9 (size before relaxing)
- .debug_str     0x00000000000003a8       0x93 obj/battery.o
-                                        0x384 (size before relaxing)
- .debug_str     0x000000000000043b       0x3d obj/callback.o
-                                        0x1d7 (size before relaxing)
- .debug_str     0x0000000000000478      0x2d1 obj/radio_api.o
-                                        0x4fa (size before relaxing)
- .debug_str     0x0000000000000749       0x74 obj/etsi.o
-                                        0x274 (size before relaxing)
- .debug_str     0x00000000000007bd       0x41 obj/fcc.o
-                                        0x25c (size before relaxing)
- .debug_str     0x00000000000007fe       0xa8 obj/hts221.o
-                                        0x297 (size before relaxing)
- .debug_str     0x00000000000008a6      0x111 obj/ltr329.o
-                                        0x32f (size before relaxing)
- .debug_str     0x00000000000009b7      0x146 obj/fxos8700.o
-                                        0x367 (size before relaxing)
- .debug_str     0x0000000000000afd       0x81 obj/main.o
-                                        0x3d3 (size before relaxing)
+.debug_str      0x0000000000000000      0xb6e
+ .debug_str     0x0000000000000000      0x32a obj/error.o
+                                        0x34b (size before relaxing)
+ .debug_str     0x000000000000032a       0x6e obj/button.o
+                                        0x2d9 (size before relaxing)
+ .debug_str     0x0000000000000398       0x93 obj/battery.o
+                                        0x374 (size before relaxing)
+ .debug_str     0x000000000000042b       0x3d obj/callback.o
+                                        0x1c7 (size before relaxing)
+ .debug_str     0x0000000000000468      0x2d1 obj/radio_api.o
+                                        0x4ea (size before relaxing)
+ .debug_str     0x0000000000000739       0x74 obj/etsi.o
+                                        0x264 (size before relaxing)
+ .debug_str     0x00000000000007ad       0x41 obj/fcc.o
+                                        0x24c (size before relaxing)
+ .debug_str     0x00000000000007ee       0xa8 obj/hts221.o
+                                        0x287 (size before relaxing)
+ .debug_str     0x0000000000000896      0x111 obj/ltr329.o
+                                        0x31f (size before relaxing)
+ .debug_str     0x00000000000009a7      0x146 obj/fxos8700.o
+                                        0x357 (size before relaxing)
+ .debug_str     0x0000000000000aed       0x81 obj/main.o
+                                        0x3c3 (size before relaxing)
 
 .comment        0x0000000000000000      0x164
  .comment       0x0000000000000000       0x76 obj/error.o

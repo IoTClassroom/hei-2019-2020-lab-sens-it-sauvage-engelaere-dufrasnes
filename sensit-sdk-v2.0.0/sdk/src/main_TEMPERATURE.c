@@ -18,7 +18,7 @@
 
 
 /******** DEFINES **************************************************/
-#define MEASUREMENT_PERIOD                 3600 /* Measurement & Message sending period, in second */
+#define MEASUREMENT_PERIOD                 60 /* Measurement & Message sending period, in second */
 
 
 /******* GLOBAL VARIABLES ******************************************/

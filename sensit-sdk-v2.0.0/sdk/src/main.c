@@ -120,7 +120,7 @@ int main()
         {
 
             /* Send the message */
-            err = RADIO_API_send_message(RGB_BLUE, (u8 *)"ENG-DUF-SAU", 11, FALSE, NULL);
+            err = RADIO_API_send_message(RGB_BLUE, (u8 *)"eng-duf-sau", 11, FALSE, NULL);
             /* Parse the error code */
             ERROR_parser(err);
 
