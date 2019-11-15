@@ -75,7 +75,7 @@ int main()
         if ((pending_interrupt & INTERRUPT_MASK_BUTTON) == INTERRUPT_MASK_BUTTON)
         {
             /* RGB Led ON during count of button presses */
-            SENSIT_API_set_rgb_led(RGB_WHITE);
+            SENSIT_API_set_rgb_led(RGB_YELLOW);
 
             /* Count number of presses */
             btn = BUTTON_handler();
@@ -120,7 +120,7 @@ int main()
         {
 
             /* Send the message */
-            err = RADIO_API_send_message(RGB_MAGENTA, (u8 *)"HI", 2, FALSE, NULL);
+            err = RADIO_API_send_message(RGB_BLUE, (u8 *)"ENG-DUF-SAU", 11, FALSE, NULL);
             /* Parse the error code */
             ERROR_parser(err);
 
