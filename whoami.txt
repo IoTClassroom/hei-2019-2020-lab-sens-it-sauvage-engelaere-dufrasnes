@@ -1,3 +1,4 @@
-Sens'it ID: B436F6
+Sens'it ID: B436AC
+Use-Case: 4-Environment sensing
 Firstnames: Clement-Alexis-Mathis
 Lastnames: Sauvage-Engelaere-Dufrasnes
